@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2{
+    background-color: aquamarine;
+    color: black;
+    height: 3rem;
+    line-height: 3rem
+}
+
+/* Hover animation */
+.choice:hover {
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#reset {
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: gray;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+    font-size: 30px;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: aquamarine;
+    color: black;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
