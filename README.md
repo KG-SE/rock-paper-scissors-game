@@ -13,7 +13,6 @@ An interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 - 🤖 Computer AI with delay
 - 🔊 Sound effects
 - 🔄 Reset game functionality
-- 📱 Responsive design
 
 ## 🛠️ Technologies Used
 - HTML
