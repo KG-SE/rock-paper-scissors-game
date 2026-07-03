@@ -59,3 +59,13 @@ screenshots/
 ---
 
 💡 This project helped me improve my JavaScript (ES6) and frontend development skills.
+
+---
+
+## 🤝 Connect with Me
+
+Feel free to connect with me on LinkedIn and check out my projects!
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
