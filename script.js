@@ -23,6 +23,11 @@ let reset_sound = new Audio("./sounds/resetgame.mp3");
 let close_sound = new Audio("./sounds/close.mp3");
 
 start_btn.addEventListener("click",()=>{
+    if (start_game){
+        msg.innerText = "Game Already Started!"
+        msg.style.backgroundColor = "orange"
+        return
+    }
     start_game = true
     msg.innerText = "Game Started, Play Your Move"
     msg.style.backgroundColor = "aquamarine"
@@ -83,16 +88,15 @@ gamePlay=(user_choice)=>{
     },1000)
 };
 
-play=()=>{
-    if (start_game) 
-    choices.forEach((choice)=>{
+ choices.forEach((choice)=>{
     choice.addEventListener("click",()=>{
+        if (!start_game) return
     const user_choice = choice.getAttribute("id")
     
     gamePlay(user_choice)
     })
-})
-};
+});
+
 
 close_btn.addEventListener("click",()=>{
     if (!start_game) return
